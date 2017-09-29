@@ -6,7 +6,7 @@ import org.junit.Test;
 public class OrcamentoTest {
 
 	@Test
-	public void test() {
+	public void Deveria_Retornar_10() {
 		Orcamento orcamento = new Orcamento(100.0);
 		Imposto imposto = new Imposto();
 		// valor esperado, valor obtido
